@@ -23,19 +23,33 @@ body{
        left: 50%;
        transform: translate(-50%, -25%);
        width: 700px;
-       height: 560px;
+       height: auto;
        background-color: #fff;
        border-radius: 10px;
 }
 .container h1{
 				text-align: center;
 }
-.container h6{
+span.texto{
+				font-size: <?php echo $tamanho; ?>;
+				color: <?php echo $cor; ?>;
+}
+
+/*Rodapé*/
+.rodape h6{
 				text-align: center;
 }
-/*Form Texto stilizado*/
-
-.texto{
-				font-size: <?php echo $tam; ?>;
-				color: <?php echo $cor; ?>;
+.rodape{
+				text-align: center;
+}
+.rodape a{
+				text-align: center;
+				text-decoration: none;
+				color: #0fb519;
+				border-width: 1px;
+				border-style: solid;
+				border-color: #0fb519;
+				border-radius: 3px;
+				width: 10px;
+				margin: 2px;
 }

@@ -33,9 +33,12 @@
 								echo "Resultado: $maior";								
 								?>
 								
-								<div class="container2">
-												<h6><a href="pg2.php">2</a></h6>
-												<h6><a href="pg3.php">3</a></h6>
+								<div class="rodape">
+												<h6>Pagina</h6>
+												<a href="index.php">inicio</a>
+												<a href="pg2.php">2</a>
+												<a href="pg3.php">3</a>
+												<a href="pg4.html">4</a>
 								</div>
 						</div>
 		</section>

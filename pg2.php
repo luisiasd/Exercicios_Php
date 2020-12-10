@@ -16,9 +16,15 @@
 								$tipo = ($idade >= 18 && $idade <= 65) ? "<h5>Obrigatorio!</h5>" : "Não Obrigatorio!";
 								echo " e dessa forma seu voto é $tipo";
 								?>
-								<h6><a href="index.php">Inicio</a></h6>
-								<h6><a href="pg3.php">3</a></h6>								
-						</div>
+
+				<div class="rodape">
+								<h6>Paginas</h6>
+								<a href="index.php">inicio</a>
+								<a href="pg2.php">2</a>
+								<a href="pg3.php">3</a>
+								<a href="pg4.html">4</a>
+				</div>
+						</div>						
 		</section>
 </body>
 </html>
