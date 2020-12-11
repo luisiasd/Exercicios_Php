@@ -26,9 +26,12 @@
 								<?php 
 								echo "<span class='texto'>$texto</span>";
 								?>
-								<div class="container2">
-												<h6><a href="pg2.php">2</a></h6>
-												<h6><a href="pg3.php">3</a></h6>
+								<div class="rodape">
+												<h6>exercicios</h6>
+												<a href="index.php">0</a>
+												<a href="aula1.php">1</a>
+												<a href="aula2.php">2</a>
+												<a href="aula3.html">3</a>
 								</div>
 						</div>
 		</section>

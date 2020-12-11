@@ -34,11 +34,12 @@
 								?>
 								
 								<div class="rodape">
-												<h6>Pagina</h6>
-												<a href="index.php">inicio</a>
-												<a href="pg2.php">2</a>
-												<a href="pg3.php">3</a>
-												<a href="pg4.html">4</a>
+												<h6>exercicios</h6>
+												<a href="index.php">0</a>
+												<a href="aula1.php">1</a>
+												<a href="aula2.php">2</a>
+												<a href="aula3.html">3</a>
+												<a href="aula4.html">4</a>												
 								</div>
 						</div>
 		</section>
