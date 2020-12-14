@@ -76,6 +76,8 @@
 												<a href="aula2.php">2</a>
 												<a href="aula3.html">3</a>
 												<a href="aula4.html">4</a>
+												<a href="aula5.html">5</a>
+												<a href="aula6.html">6</a>
 								</div>
 								</div>
 				</section>				

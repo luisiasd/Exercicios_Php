@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<a href=""></a><!DOCTYPE html>
 <html lang="pt">
 <head>
 				<link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />				
@@ -32,6 +32,9 @@
 												<a href="aula1.php">1</a>
 												<a href="aula2.php">2</a>
 												<a href="aula3.html">3</a>
+												<a href="aula4.html">4</a>
+											 <a here="aula5.html">5</a>
+											 <a href="aula6.html">6</a>
 								</div>
 						</div>
 		</section>
