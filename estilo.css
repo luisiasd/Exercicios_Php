@@ -1,24 +1,24 @@
 body{
-				width: 100%;
-				height: 100vh;
-				background: linear-gradient(-45deg, #eb5d31, #e84dbf, #11bbf7, #0cc99d);
-				background-size: 400% 400%;
-				position: relative;
-				animation: change 10s ease-in-out infinite;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(-45deg, #eb5d31, #e84dbf, #11bbf7, #0cc99d);
+	background-size: 400% 400%;
+	position: relative;
+	animation: change 10s ease-in-out infinite;
 }
 @keyframes change{
-				0%{
-								background-position: 0 50%;
-				}
-				50%{
-								background-position: 100% 50%;
-				}
-				100%{
-								background-position: 0 50%;
-				}
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
 }
 .container{
-				position: absolute;
+	position: absolute;
        top: 25%;
        left: 50%;
        transform: translate(-50%, -25%);
@@ -28,29 +28,29 @@ body{
        border-radius: 10px;
 }
 .container h1{
-				text-align: center;
+	text-align: center;
 }
 span.texto{
-				font-size: <?php echo $tamanho; ?>;
-				color: <?php echo $cor; ?>;
+	font-size: <?php echo $tamanho; ?>;
+	color: <?php echo $cor; ?>;
 }
 
 /*Rodapé*/
 .rodape h6{
-				text-align: center;
+	text-align: center;
 }
 .rodape{
-				text-align: center;
+	text-align: center;
 }
 .rodape a{
-				text-align: center;
-				text-decoration: none;
-				color: #0fb519;
-				border-width: 1px;
-				border-style: solid;
-				border-color: #0fb519;
-				border-radius: 3px;
-				width: 10px;
-				margin: 2px;
+	text-align: center;
+	text-decoration: none;
+	color: #0fb519;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #0fb519;
+	border-radius: 3px;
+	width: 10px;
+	margin: 2px;
 }
 
