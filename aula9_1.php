@@ -1,7 +1,19 @@
 <?php
 class Caneta {
-				public $modelo;
+				private $modelo;
+				private $cor;
 				private $ponta;
+				private $tampada;
+				
+				public function Caneta($m, $c, $p) {//O método construct pode ter o mesmo nome da classe ou __
+								$this -> modelo = $m;
+								$this -> cor    = $c;
+								$this -> ponta  = $p;
+								$this -> tampar();
+				}
+				public function tampar() {
+								$this->tampada = false;
+				}
 				public function getModelo(){
 								return $this->modelo;
 				}

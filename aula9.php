@@ -13,13 +13,17 @@
 				
 				<?php
 								require_once 'aula9_1.php';
-								$ModeloCaneta = $_POST["modelo"];
-								$PontaCaneta = $_POST["ponta"];
+							  $ModeloCaneta = $_POST["modelo"];
+								$PontaCaneta = $_POST["ponta"];								
 								
-								$c1 = new Caneta();
-								$c1->setModelo($ModeloCaneta);
-								$c1->setPonta($PontaCaneta);
-								print "Eu enho uma caneta {$c1->getModelo()} de ponta {$c1->getPonta()}";
+								$c1 = new Caneta("Fabber Casttel", "Verde", "0.5" );
+								$c2 = new Caneta("$ModeloCaneta", "$PontaCaneta", "$PontaCaneta");
+								//$c1->setModelo($ModeloCaneta);
+								//$c1->setPonta($PontaCaneta);
+								//print "Eu enho uma caneta {$c1->getModelo()} de ponta {$c1->getPonta()}";
+								
+								print_r($c1);
+								print_r($c2);
 				?>
 				</pre>
 </body>
